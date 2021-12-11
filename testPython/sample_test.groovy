@@ -1,1 +1,1 @@
-printIn "I am Sample Test Groovy, Demo"
+echo "I am Sample Test Groovy, Demo"
