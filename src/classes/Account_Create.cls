@@ -1,5 +1,6 @@
 public class Account_Create {
     @AuraEnabled
+    /* testting */
     public static String create(Account acc){
         String result;
         try{
