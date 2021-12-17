@@ -1,0 +1,31 @@
+<aura:component >
+    <lightning:input type="checkbox-button" label="Red" name="red" checked="true"/>
+     <lightning:input type="checkbox-button" label="Blue" name="blue" />
+    <lightning:input type="checkbox-button" label="Add pepperoni" name="addPepperoni" checked="true" value="pepperoni" />
+    <lightning:input type="checkbox-button" label="Add salami" name="addSalami" value="salami" />
+    <lightning:input type="color" label="Color" name="color" value="#EEEEEE" />
+    <lightning:input type="date" label="Today" name="date" />
+    <lightning:input type="datetime" label="Created date" name="datetime" />
+    <lightning:input type="email" label="Email" />
+    <lightning:input type="email" label="Email"
+            pattern=".+@example.com"
+            placeholder="username@example.com" />
+    <lightning:input type="email" label="Email"
+          maxlength="5"
+          messageWhenTooShort="Your email address must be more than 5 characters." />
+    <lightning:input type="email" label="Email"
+                multiple="true" />
+    <lightning:input type="file" label="Attachment" name="file" multiple="true" accept="image/png, .zip" onchange="{! c.handleFilesChange }"/>
+    <lightning:input type="number" name="number" label="Phone Number" value="12345"/>
+    <lightning:input type="password" label="Password" name="password" />
+    <lightning:input type="range" label="Number" name="number" min="0" max="10" />
+    <lightning:input type="search" label="Search" name="search" />
+    <lightning:input type="search" label="Search" isLoading="true" />
+    <lightning:input type="tel" label="Telephone" name="tel" value="343-343-3434" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+    <lightning:input label="Name" name="myname" />
+    <lightning:input type="url" label="Website" name="website" />
+    <lightning:input type="toggle" label="Toggle value" name="togglevalue" checked="true" messageToggleActive="On" messageToggleInactive="Off"/>
+    <lightning:input name="quantity" value="1234567890" label="Quantity" maxlength="10" />
+    <lightning:input name="input" aura:id="myinput" label="Enter some text" onblur="{! c.handleBlur }" />
+	
+</aura:component>
