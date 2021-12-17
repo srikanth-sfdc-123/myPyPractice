@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#FA0909</headerColor>
+        <logo>LWC</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>LWC</label>
+    <navType>Standard</navType>
+    <tabs>LWC_FUN</tabs>
+    <tabs>FUN_QUIZ</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>LWC_UtilityBar</utilityBar>
+</CustomApplication>

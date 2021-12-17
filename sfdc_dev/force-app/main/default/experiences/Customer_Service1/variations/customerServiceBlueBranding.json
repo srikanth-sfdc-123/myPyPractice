@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "d8c28bf8-f00e-44ac-b9b6-9e3e51c78f58",
+    "propertyOverrides" : {
+      "activeBrandingSetId" : "d8639d84-e5e7-48a2-b492-56dbb00bb09a"
+    },
+    "targetId" : "7d5d0b57-7b0a-4155-a2ed-d99b1707e904",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Customer_Service_Blue_Branding",
+  "id" : "1943912d-b918-4edd-9f63-872f3afea089",
+  "type" : "experienceVariation"
+}

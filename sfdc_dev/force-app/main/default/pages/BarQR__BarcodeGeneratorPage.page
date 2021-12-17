@@ -1,0 +1,4 @@
+<apex:page showheader="false" sidebar="false" standardStylesheets="false">
+  <c:BarcodeVFComponent barcodeConfigName="{!JSENCODE($CurrentPage.parameters.configName)}" recordId="{!JSENCODE($CurrentPage.parameters.recordId)}"
+  />
+</apex:page>

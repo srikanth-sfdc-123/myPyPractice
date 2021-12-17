@@ -1,0 +1,23 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    
+    <aura:attribute name="status" type="String"/>
+    <aura:handler name="change" value="{!v.status}" action="{!c.handleChange}"/>
+    <div class="slds-grid">
+      <div class="slds-col--padded slds-large-size--6-of-12">
+             <fieldset class="slds-form-element">
+                        <legend class="slds-text-title_bold"/>
+             <div class="slds-form-element__control">
+       <span class="valueFont">
+    <lightning:select aura:id="select" name="select" label="Opportunity Status" value="{!v.status}">
+        <option value="">choose one...</option>
+        <option value="open">Open</option>
+        <option value="closed">Closed</option>
+        <option value="closedwon">Closed Won</option>
+    </lightning:select>
+            <ui:outputText value="{!v.status}"/>
+                                            </span>
+                                        </div>
+                                     </fieldset>
+                                 </div>
+    </div>
+</aura:component>

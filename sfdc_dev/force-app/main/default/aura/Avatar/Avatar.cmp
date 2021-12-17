@@ -1,0 +1,20 @@
+<aura:component >
+    <div class="margin">
+	<span class="slds-avatar">
+  <abbr class="slds-avatar__initials slds-icon-standard-account" title="company name">VS</abbr>
+    </span>
+    <div class="white">
+    Hello, Salesforce!
+  </div>
+  
+  <h2> <li class="gold">#FAMILY#</li>.</h2>
+  
+  <ul>
+    <li class="skyblue">I'm Srihith.</li>
+    <li class="gold">I'm Latha.</li>
+    <li class="skyblue">I'm Srikanth.</li>
+    <li class="gold">I'm Vamika.</li>
+    <li class="skyblue">I'm Venkat.</li>
+  </ul>
+  </div>
+</aura:component>

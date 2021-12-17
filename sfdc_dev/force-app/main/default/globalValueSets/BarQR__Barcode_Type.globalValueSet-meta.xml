@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>auspost</fullName>
+        <default>false</default>
+        <label>AusPost 4 State Customer Code</label>
+    </customValue>
+    <customValue>
+        <fullName>azteccode</fullName>
+        <default>false</default>
+        <label>Aztec Code</label>
+    </customValue>
+    <customValue>
+        <fullName>aztecrune</fullName>
+        <default>false</default>
+        <label>Aztec Runes</label>
+    </customValue>
+    <customValue>
+        <fullName>bc412</fullName>
+        <default>false</default>
+        <label>BC412</label>
+    </customValue>
+    <customValue>
+        <fullName>coop2of5</fullName>
+        <default>false</default>
+        <label>COOP 2 of 5</label>
+    </customValue>
+    <customValue>
+        <fullName>channelcode</fullName>
+        <default>false</default>
+        <label>Channel Code</label>
+    </customValue>
+    <customValue>
+        <fullName>rationalizedCodabar</fullName>
+        <default>false</default>
+        <label>Codabar</label>
+    </customValue>
+    <customValue>
+        <fullName>codablockf</fullName>
+        <default>false</default>
+        <label>Codablock F</label>
+    </customValue>
+    <customValue>
+        <fullName>code11</fullName>
+        <default>false</default>
+        <label>Code 11</label>
+    </customValue>
+    <customValue>
+        <fullName>code128</fullName>
+        <default>true</default>
+        <label>Code 128</label>
+    </customValue>
+    <customValue>
+        <fullName>code16k</fullName>
+        <default>false</default>
+        <label>Code 16K</label>
+    </customValue>
+    <customValue>
+        <fullName>code2of5</fullName>
+        <default>false</default>
+        <label>Code 25</label>
+    </customValue>
+    <customValue>
+        <fullName>code39</fullName>
+        <default>false</default>
+        <label>Code 39</label>
+    </customValue>
+    <customValue>
+        <fullName>code39ext</fullName>
+        <default>false</default>
+        <label>Code 39 Extended</label>
+    </customValue>
+    <customValue>
+        <fullName>code49</fullName>
+        <default>false</default>
+        <label>Code 49</label>
+    </customValue>
+    <customValue>
+        <fullName>code93</fullName>
+        <default>false</default>
+        <label>Code 93</label>
+    </customValue>
+    <customValue>
+        <fullName>code93ext</fullName>
+        <default>false</default>
+        <label>Code 93 Extended</label>
+    </customValue>
+    <customValue>
+        <fullName>codeone</fullName>
+        <default>false</default>
+        <label>Code One</label>
+    </customValue>
+    <customValue>
+        <fullName>azteccodecompact</fullName>
+        <default>false</default>
+        <label>Compact Aztec Code</label>
+    </customValue>
+    <customValue>
+        <fullName>pdf417compact</fullName>
+        <default>false</default>
+        <label>Compact PDF417</label>
+    </customValue>
+    <customValue>
+        <fullName>raw</fullName>
+        <default>false</default>
+        <label>Custom 1D symbology</label>
+    </customValue>
+    <customValue>
+        <fullName>daft</fullName>
+        <default>false</default>
+        <label>Custom 4 state symbology</label>
+    </customValue>
+    <customValue>
+        <fullName>datamatrix</fullName>
+        <default>false</default>
+        <label>Data Matrix</label>
+    </customValue>
+    <customValue>
+        <fullName>datamatrixrectangular</fullName>
+        <default>false</default>
+        <label>Data Matrix Rectangular</label>
+    </customValue>
+    <customValue>
+        <fullName>datalogic2of5</fullName>
+        <default>false</default>
+        <label>Datalogic 2 of 5</label>
+    </customValue>
+    <customValue>
+        <fullName>identcode</fullName>
+        <default>false</default>
+        <label>Deutsche Post Identcode</label>
+    </customValue>
+    <customValue>
+        <fullName>leitcode</fullName>
+        <default>false</default>
+        <label>Deutsche Post Leitcode</label>
+    </customValue>
+    <customValue>
+        <fullName>dotcode</fullName>
+        <default>false</default>
+        <label>DotCode</label>
+    </customValue>
+    <customValue>
+        <fullName>ean13</fullName>
+        <default>false</default>
+        <label>EAN-13</label>
+    </customValue>
+    <customValue>
+        <fullName>ean13composite</fullName>
+        <default>false</default>
+        <label>EAN-13 Composite</label>
+    </customValue>
+    <customValue>
+        <fullName>ean2</fullName>
+        <default>false</default>
+        <label>EAN-2 (2 digit addon)</label>
+    </customValue>
+    <customValue>
+        <fullName>ean5</fullName>
+        <default>false</default>
+        <label>EAN-5 (5 digit addon)</label>
+    </customValue>
+    <customValue>
+        <fullName>ean8</fullName>
+        <default>false</default>
+        <label>EAN-8</label>
+    </customValue>
+    <customValue>
+        <fullName>ean8composite</fullName>
+        <default>false</default>
+        <label>EAN-8 Composite</label>
+    </customValue>
+    <customValue>
+        <fullName>flattermarken</fullName>
+        <default>false</default>
+        <label>Flattermarken</label>
+    </customValue>
+    <customValue>
+        <fullName>gs1-cc</fullName>
+        <default>false</default>
+        <label>GS1 Composite 2D Component</label>
+    </customValue>
+    <customValue>
+        <fullName>gs1datamatrix</fullName>
+        <default>false</default>
+        <label>GS1 Data Matrix</label>
+    </customValue>
+    <customValue>
+        <fullName>gs1datamatrixrectangular</fullName>
+        <default>false</default>
+        <label>GS1 Data Matrix Rectangular</label>
+    </customValue>
+    <customValue>
+        <fullName>databarexpanded</fullName>
+        <default>false</default>
+        <label>GS1 DataBar Expanded</label>
+    </customValue>
+    <customValue>
+        <fullName>databarexpandedcomposite</fullName>
+        <default>false</default>
+        <label>GS1 DataBar Expanded Composite</label>
+    </customValue>
+    <customValue>
+        <fullName>databarexpandedstacked</fullName>
+        <default>false</default>
+        <label>GS1 DataBar Expanded Stacked</label>
+    </customValue>
+    <customValue>
+        <fullName>databarexpandedstackedcomposite</fullName>
+        <default>false</default>
+        <label>GS1 DataBar Expanded Stacked Composite</label>
+    </customValue>
+    <customValue>
+        <fullName>databarlimited</fullName>
+        <default>false</default>
+        <label>GS1 DataBar Limited</label>
+    </customValue>
+    <customValue>
+        <fullName>databarlimitedcomposite</fullName>
+        <default>false</default>
+        <label>GS1 DataBar Limited Composite</label>
+    </customValue>
+    <customValue>
+        <fullName>databaromni</fullName>
+        <default>false</default>
+        <label>GS1 DataBar Omnidirectional</label>
+    </customValue>
+    <customValue>
+        <fullName>databaromnicomposite</fullName>
+        <default>false</default>
+        <label>GS1 DataBar Omnidirectional Composite</label>
+    </customValue>
+    <customValue>
+        <fullName>databarstacked</fullName>
+        <default>false</default>
+        <label>GS1 DataBar Stacked</label>
+    </customValue>
+    <customValue>
+        <fullName>databarstackedcomposite</fullName>
+        <default>false</default>
+        <label>GS1 DataBar Stacked Composite</label>
+    </customValue>
+    <customValue>
+        <fullName>databarstackedomni</fullName>
+        <default>false</default>
+        <label>GS1 DataBar Stacked Omnidirectional</label>
+    </customValue>
+    <customValue>
+        <fullName>databarstackedomnicomposite</fullName>
+        <default>false</default>
+        <label>GS1 DataBar Stacked Omnidirectional Composite</label>
+    </customValue>
+    <customValue>
+        <fullName>databartruncated</fullName>
+        <default>false</default>
+        <label>GS1 DataBar Truncated</label>
+    </customValue>
+    <customValue>
+        <fullName>databartruncatedcomposite</fullName>
+        <default>false</default>
+        <label>GS1 DataBar Truncated Composite</label>
+    </customValue>
+    <customValue>
+        <fullName>gs1northamericancoupon</fullName>
+        <default>false</default>
+        <label>GS1 North American Coupon</label>
+    </customValue>
+    <customValue>
+        <fullName>gs1qrcode</fullName>
+        <default>false</default>
+        <label>GS1 QR Code</label>
+    </customValue>
+    <customValue>
+        <fullName>gs1-128</fullName>
+        <default>false</default>
+        <label>GS1-128</label>
+    </customValue>
+    <customValue>
+        <fullName>gs1-128composite</fullName>
+        <default>false</default>
+        <label>GS1-128 Composite</label>
+    </customValue>
+    <customValue>
+        <fullName>ean14</fullName>
+        <default>false</default>
+        <label>GS1-14</label>
+    </customValue>
+    <customValue>
+        <fullName>hibcazteccode</fullName>
+        <default>false</default>
+        <label>HIBC Aztec Code</label>
+    </customValue>
+    <customValue>
+        <fullName>hibccodablockf</fullName>
+        <default>false</default>
+        <label>HIBC Codablock F</label>
+    </customValue>
+    <customValue>
+        <fullName>hibccode128</fullName>
+        <default>false</default>
+        <label>HIBC Code 128</label>
+    </customValue>
+    <customValue>
+        <fullName>hibccode39</fullName>
+        <default>false</default>
+        <label>HIBC Code 39</label>
+    </customValue>
+    <customValue>
+        <fullName>hibcdatamatrix</fullName>
+        <default>false</default>
+        <label>HIBC Data Matrix</label>
+    </customValue>
+    <customValue>
+        <fullName>hibcdatamatrixrectangular</fullName>
+        <default>false</default>
+        <label>HIBC Data Matrix Rectangular</label>
+    </customValue>
+    <customValue>
+        <fullName>hibcmicropdf417</fullName>
+        <default>false</default>
+        <label>HIBC MicroPDF417</label>
+    </customValue>
+    <customValue>
+        <fullName>hibcpdf417</fullName>
+        <default>false</default>
+        <label>HIBC PDF417</label>
+    </customValue>
+    <customValue>
+        <fullName>hibcqrcode</fullName>
+        <default>false</default>
+        <label>HIBC QR Code</label>
+    </customValue>
+    <customValue>
+        <fullName>hanxin</fullName>
+        <default>false</default>
+        <label>Han Xin Code</label>
+    </customValue>
+    <customValue>
+        <fullName>iata2of5</fullName>
+        <default>false</default>
+        <label>IATA 2 of 5</label>
+    </customValue>
+    <customValue>
+        <fullName>isbn</fullName>
+        <default>false</default>
+        <label>ISBN</label>
+    </customValue>
+    <customValue>
+        <fullName>ismn</fullName>
+        <default>false</default>
+        <label>ISMN</label>
+    </customValue>
+    <customValue>
+        <fullName>issn</fullName>
+        <default>false</default>
+        <label>ISSN</label>
+    </customValue>
+    <customValue>
+        <fullName>itf14</fullName>
+        <default>false</default>
+        <label>ITF-14</label>
+    </customValue>
+    <customValue>
+        <fullName>industrial2of5</fullName>
+        <default>false</default>
+        <label>Industrial 2 of 5</label>
+    </customValue>
+    <customValue>
+        <fullName>interleaved2of5</fullName>
+        <default>false</default>
+        <label>Interleaved 2 of 5 (ITF)</label>
+    </customValue>
+    <customValue>
+        <fullName>code32</fullName>
+        <default>false</default>
+        <label>Italian Pharmacode</label>
+    </customValue>
+    <customValue>
+        <fullName>japanpost</fullName>
+        <default>false</default>
+        <label>Japan Post 4 State Customer Code</label>
+    </customValue>
+    <customValue>
+        <fullName>msi</fullName>
+        <default>false</default>
+        <label>MSI Modified Plessey</label>
+    </customValue>
+    <customValue>
+        <fullName>matrix2of5</fullName>
+        <default>false</default>
+        <label>Matrix 2 of 5</label>
+    </customValue>
+    <customValue>
+        <fullName>maxicode</fullName>
+        <default>false</default>
+        <label>MaxiCode</label>
+    </customValue>
+    <customValue>
+        <fullName>microqrcode</fullName>
+        <default>false</default>
+        <label>Micro QR Code</label>
+    </customValue>
+    <customValue>
+        <fullName>micropdf417</fullName>
+        <default>false</default>
+        <label>MicroPDF417</label>
+    </customValue>
+    <customValue>
+        <fullName>symbol</fullName>
+        <default>false</default>
+        <label>Miscellaneous symbols</label>
+    </customValue>
+    <customValue>
+        <fullName>pdf417</fullName>
+        <default>false</default>
+        <label>PDF417</label>
+    </customValue>
+    <customValue>
+        <fullName>pharmacode</fullName>
+        <default>false</default>
+        <label>Pharmaceutical Binary Code</label>
+    </customValue>
+    <customValue>
+        <fullName>pzn</fullName>
+        <default>false</default>
+        <label>Pharmazentralnummer (PZN)</label>
+    </customValue>
+    <customValue>
+        <fullName>plessey</fullName>
+        <default>false</default>
+        <label>Plessey UK</label>
+    </customValue>
+    <customValue>
+        <fullName>posicode</fullName>
+        <default>false</default>
+        <label>PosiCode</label>
+    </customValue>
+    <customValue>
+        <fullName>qrcode</fullName>
+        <default>false</default>
+        <label>QR Code</label>
+    </customValue>
+    <customValue>
+        <fullName>kix</fullName>
+        <default>false</default>
+        <label>Royal Dutch TPG Post KIX</label>
+    </customValue>
+    <customValue>
+        <fullName>royalmail</fullName>
+        <default>false</default>
+        <label>Royal Mail 4 State Customer Code</label>
+    </customValue>
+    <customValue>
+        <fullName>sscc18</fullName>
+        <default>false</default>
+        <label>SSCC-18</label>
+    </customValue>
+    <customValue>
+        <fullName>telepen</fullName>
+        <default>false</default>
+        <label>Telepen</label>
+    </customValue>
+    <customValue>
+        <fullName>telepennumeric</fullName>
+        <default>false</default>
+        <label>Telepen Numeric</label>
+    </customValue>
+    <customValue>
+        <fullName>pharmacode2</fullName>
+        <default>false</default>
+        <label>Two-track Pharmacode</label>
+    </customValue>
+    <customValue>
+        <fullName>upca</fullName>
+        <default>false</default>
+        <label>UPC-A</label>
+    </customValue>
+    <customValue>
+        <fullName>upcacomposite</fullName>
+        <default>false</default>
+        <label>UPC-A Composite</label>
+    </customValue>
+    <customValue>
+        <fullName>upce</fullName>
+        <default>false</default>
+        <label>UPC-E</label>
+    </customValue>
+    <customValue>
+        <fullName>upcecomposite</fullName>
+        <default>false</default>
+        <label>UPC-E Composite</label>
+    </customValue>
+    <customValue>
+        <fullName>onecode</fullName>
+        <default>false</default>
+        <label>USPS Intelligent Mail</label>
+    </customValue>
+    <customValue>
+        <fullName>planet</fullName>
+        <default>false</default>
+        <label>USPS PLANET</label>
+    </customValue>
+    <customValue>
+        <fullName>postnet</fullName>
+        <default>false</default>
+        <label>USPS POSTNET</label>
+    </customValue>
+    <customValue>
+        <fullName>ultracode</fullName>
+        <default>false</default>
+        <label>Ultracode</label>
+    </customValue>
+    <description>Type of barcodes supported in the app</description>
+    <masterLabel>Barcode Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
